@@ -1,0 +1,131 @@
+# Slovenian translations for colander.
+# Copyright (C) 2012 ORGANIZATION
+# This file is distributed under the same license as the colander project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: colander 0.9.7\n"
+"Report-Msgid-Bugs-To: brodul@brodul.org\n"
+"POT-Creation-Date: 2012-03-20 23:23-0300\n"
+"PO-Revision-Date: 2013-01-19 20:19+0100\n"
+"Last-Translator: Andraz Brodnik <brodul@brodul.org>\n"
+"Language-Team: sl <LL@li.org>\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 "
+"|| n%100==4 ? 2 : 3)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: colander/__init__.py:221
+msgid "Invalid value"
+msgstr "Neveljavna vrednost"
+
+#: colander/__init__.py:254
+msgid "String does not match expected pattern"
+msgstr "Niz ne ustreza pričakovanemu uzorcu"
+
+#: colander/__init__.py:269
+msgid "Invalid email address"
+msgstr "Neveljavni poštni naslov"
+
+#: colander/__init__.py:298
+msgid "${val} is less than minimum value ${min}"
+msgstr "${val} je krajši/a od minimalne vrednosti ${min}"
+
+#: colander/__init__.py:299
+msgid "${val} is greater than maximum value ${max}"
+msgstr "${val} je večja od maksimalne vrednosti ${max}"
+
+#: colander/__init__.py:331
+msgid "Shorter than minimum length ${min}"
+msgstr "Niz je krajši od ${min} znakov"
+
+#: colander/__init__.py:337
+msgid "Longer than maximum length ${max}"
+msgstr "Daljše od maksimalne dolžine ${max}"
+
+#: colander/__init__.py:350
+msgid "\"${val}\" is not one of ${choices}"
+msgstr "\"${val}\" ni izbira iz med ${choices}"
+
+#: colander/__init__.py:442
+msgid "\"${val}\" is not a mapping type: ${err}"
+msgstr ""
+
+#: colander/__init__.py:466
+msgid "Unrecognized keys in mapping: \"${val}\""
+msgstr ""
+
+#: colander/__init__.py:562 colander/__init__.py:705
+msgid "\"${val}\" is not iterable"
+msgstr ""
+
+#: colander/__init__.py:570
+msgid ""
+"\"${val}\" has an incorrect number of elements (expected ${exp}, was "
+"${was})"
+msgstr ""
+
+#: colander/__init__.py:919
+msgid "${val} cannot be serialized: ${err}"
+msgstr ""
+
+#: colander/__init__.py:937
+msgid "${val} is not a string: ${err}"
+msgstr ""
+
+#: colander/__init__.py:957 colander/__init__.py:968
+msgid "\"${val}\" is not a number"
+msgstr ""
+
+#: colander/__init__.py:1044
+msgid "${val} is not a string"
+msgstr ""
+
+#: colander/__init__.py:1104 colander/__init__.py:1121
+#: colander/__init__.py:1131
+msgid "relative name \"${val}\" irresolveable without package"
+msgstr ""
+
+#: colander/__init__.py:1161
+msgid "\"${val}\" has no __name__"
+msgstr ""
+
+#: colander/__init__.py:1170
+msgid "\"${val}\" is not a string"
+msgstr ""
+
+#: colander/__init__.py:1179
+msgid "The dotted name \"${name}\" cannot be imported"
+msgstr ""
+
+#: colander/__init__.py:1226 colander/__init__.py:1307
+msgid "Invalid date"
+msgstr ""
+
+#: colander/__init__.py:1242
+msgid "\"${val}\" is not a datetime object"
+msgstr ""
+
+#: colander/__init__.py:1318
+msgid "\"${val}\" is not a date object"
+msgstr ""
+
+#: colander/__init__.py:1383
+msgid "Invalid time"
+msgstr ""
+
+#: colander/__init__.py:1394
+msgid "\"${val}\" is not a time object"
+msgstr ""
+
+#: colander/__init__.py:1605 colander/__init__.py:1607
+msgid "Required"
+msgstr ""
+
+#: colander/tests/test_colander.py:259 colander/tests/test_colander.py:266
+msgid "fail ${val}"
+msgstr ""
+
